@@ -1,2 +1,2 @@
-# Personal-Public-Projects
-This Repo contains my personal public projects during my education.
+# Public Projects
+This Repo contains my public projects during my education.
