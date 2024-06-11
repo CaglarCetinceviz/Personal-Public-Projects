@@ -61,8 +61,27 @@
         <div class="container small">
             <header>
                 <p class="section-intro">contact us</p>
-                <h3>let's get in toch</h3>
+                <h3>let's get in touch</h3>
             </header>
+
+            <form action="" method="post">
+                <div>
+                    <label for="contact-name">Name</label>
+                    <input type="text" name="contact-name" id="contact-name" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="contact-email">Email Address</label>
+                    <input type="text" email="contact-email" id="contact-email" placeholder="Your Email" required>
+                </div>
+                <div>
+                    <label for="contact-message">Message</label>
+                    <textarea name="contact-message" id="contact-message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+                </div>
+                <div>
+                    <button class="btn">Send Message</button>
+                    <p class="muted"><em>All fields are required. We'll get back to you as soon as possible.</em></p>
+                </div>
+            </form>
         </div>
     </section>
 
