@@ -72,7 +72,7 @@ p.section-intro {
 p.number {
     font-size: 2.40rem;
     font-weight: 300;
-    line-height: 3.55;
+    /* line-height: 3.55; */
     color: rgba(60, 58, 71, 0.50)
 }
 
@@ -118,4 +118,187 @@ form button {
 section {
     padding: 13rem 0;
     text-align: center;
+}
+
+#main-header h1 {
+    margin: 7rem 0 1rem 0;
+}
+
+#main-header h2 {
+    margin-bottom: 7rem;
+}
+
+.btn {
+    padding: 1.3rem 3.5rem;
+    border: 1px solid rgb(159, 118, 87);
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: rgb(60, 58, 71);
+    border-color: rgb(60, 58, 71);
+    color: white;
+}
+
+/* Chair */
+
+#our-chairs {
+    background-color: rgba(239, 240, 234, 1);
+    ;
+}
+
+section header {
+    margin-bottom: 3.5rem;
+}
+
+h3+p {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 400;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery div {
+    text-align: start;
+}
+
+.gallery img {
+    margin-bottom: 1.3rem;
+}
+
+/* dark */
+
+.dark {
+    background-color: rgb(60, 58, 71);
+}
+
+.dark label {
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.dark form div {
+    margin-bottom: 1.75rem;
+}
+
+form label {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: start;
+    margin-bottom: .5rem;
+}
+
+form input,
+form textarea {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.80);
+}
+
+.dark .btn {
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.80);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1.75rem;
+}
+
+.dark .btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 58, 71);
+}
+
+.dark .muted {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Visit store */
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+}
+
+p.large + .social-icons {
+    margin-top: 7.15rem;
+}
+
+/* footer */
+
+footer {
+    padding: 3.35rem 6rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 650px) {
+    h1,
+    h3.large {
+        font-size: 2.3rem;
+    }
+
+    h2,
+    p.large {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .container.small {
+        width: 85%;
+    }
+
+    #main-header,
+    section {
+        padding: 6rem 0;
+    }
+
+    footer {
+        padding: 2.5rem 0;
+    }
+
+    p.large + .social-icons {
+        margin-top: 3.5rem;
+    }
+
+    #main-header h1 {
+        margin-top: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
 }
