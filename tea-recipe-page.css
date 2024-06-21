@@ -1,0 +1,54 @@
+body {
+	font-family: 'poppins', sans-serif;
+	color: slategray;
+	background-image: linear-gradient(90deg,rgba(54, 65, 69, 0.04),rgba(54, 65, 69, 0.5));
+}
+
+h1 {
+	font-size: 300%;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+
+h1,
+h2 {
+	color: rgb(196, 85, 51);
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+footer {
+	margin-top: 70px;
+	background-color: orange;
+	color: white;
+	border-radius: 20px;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#container {
+	width: 60%;
+	margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+	#container {
+		width: 90%;	
+	}
+	
+	h1 {
+		font-size: 200%;	
+	}
+}
